@@ -785,6 +785,14 @@ button,
 #chat.colored-nicks .user.color-31 { color: #ff4846; }
 #chat.colored-nicks .user.color-32 { color: #ff199b; }
 
+#chat .first-unread:not(:last-child):after {
+	content: " ";
+	position: absolute;
+	width: 100%;
+	left: 0;
+	border-bottom: 1px solid #428bca;
+}
+
 #chat .text {
 	padding-left: 10px;
 	padding-right: 6px;
